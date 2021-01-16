@@ -20,3 +20,6 @@ urlpatterns = [
 ]
 
 If you created a new app via the startapp command above, create your styles.css, urls.py, and index.html files accordingly
+
+## Run app via the console on localhost by the command
+python manage.py runserver
