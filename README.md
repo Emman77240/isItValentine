@@ -1,5 +1,5 @@
 ## Is it Valentine's day?
-A simple Django app that checks if current day is Valentine's day
+This is a simple Django app that checks if current day is Valentine's day
 
 ### To create app
 Run : django-admin startproject PROJECT_NAME
