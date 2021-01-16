@@ -1,19 +1,19 @@
-# isItValentine
+## Is it Valentine's day?
 A simple Django app that checks if current day is Valentine's day
 
-## To create app
+### To create app
 Run : django-admin startproject PROJECT_NAME
 
-## To create new app from newly created django project directory
+### To create new app from newly created django project directory
 Run: python manage.py startapp APP_NAME
 
-## Edit settings.py file of django project to include newly created app
+### Edit settings.py file of django project to include newly created app
 INSTALLED_APPS = [
     'checkvalentine',
     ...
 ]
 
-## Register the url path of the newly created app in the urls.py file of the django project
+### Register the url path of the newly created app in the urls.py file of the django project
 urlpatterns = [
     ...
     path('isitvalentine/', include('checkvalentine.urls'))
@@ -21,5 +21,9 @@ urlpatterns = [
 
 If you created a new app via the startapp command above, create your styles.css, urls.py, and index.html files accordingly
 
-## Run app via the console on localhost by the command
+### Run app via the console on localhost by the command
 python manage.py runserver
+
+### You can view app in action at url:
+
+http://emman77240.pythonanywhere.com/isvalentines/
